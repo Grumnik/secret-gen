@@ -35,7 +35,7 @@ def main():
     args = get_args()
     letters = string.ascii_letters
     nums = string.digits
-    specs = "!#$%&()*+,-.:;<=>?@[]_"
+    specs = "!@#$%^*-_+="
 
     nums_length = math.ceil((args.length / 100) * args.numbers)
     specs_length = math.ceil((args.length / 100) * args.specials)
